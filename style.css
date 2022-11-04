@@ -3,13 +3,14 @@
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    font-family: Verdana;
 }
 
 .head {
     justify-content: center;
     row-gap: 1000px;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 300%;
 }
 
 .flex-container {
@@ -26,25 +27,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     width: 270px;
     height: 349px;
     border: 3px solid #F6F7F8;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .img-1 {
     width: 236px;
     height: 153px;
+    
+}
+
+.head-2 {
+    line-height: 15px;
 }
 
 .price { 
-    
     font-size: 16px;
     color: #FF4A5A;
 }
 
 .price-2 {
+    line-height: 16px;
     color: #C4CBD1;
     text-decoration: line-through;
     text-decoration-color: #5D656B;
