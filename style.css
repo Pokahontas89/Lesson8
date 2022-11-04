@@ -1,29 +1,36 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 .head {
     justify-content: center;
+    row-gap: 1000px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-container {
+    flex-direction: column;
+    display: flex;
     width: 1170px;
     height: 809px;
     flex-wrap: wrap;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
     gap: 20px;
     row-gap: 30px;
 }
 
 .flex-item {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 270px;
+    height: 349px;
     border: 3px solid #F6F7F8;
     font-size: 14px;
-    font-weight: ;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .img-1 {
@@ -31,7 +38,8 @@
     height: 153px;
 }
 
-.price {
+.price { 
+    
     font-size: 16px;
     color: #FF4A5A;
 }
